@@ -3,7 +3,7 @@
 .container {
     font-family: 'Poppins', sans-serif;
 }
-
+ 
 .spawn-locations {
     text-transform: uppercase;
     position: absolute;
@@ -12,7 +12,6 @@
     background-color: rgb(23 23 23 / 80%);
     border-radius: .8vh;
     padding: 30px;
-    cursor: default;
 }
 
 .location {
@@ -22,7 +21,6 @@
     transition: 0.2s;
     transition: .1s linear;
     border-radius: .3vh;
-    cursor: pointer;
 }
 
 .location > p {
@@ -34,12 +32,12 @@
 }
 
 .location:hover {
-    background-color: #dc143c;
+    background-color: #dc8514;
     transition: 0.2s;
 }
 
 .selected {
-    background-color: #dc143c;
+    background-color: #dc8514;
 }
 
 .submit-spawn {
@@ -49,7 +47,6 @@
     margin-bottom: .75vh;
     transition: 0.2s;
     border-radius: .3vh;
-    cursor: pointer;
 }
 
 .submit-spawn > p {
